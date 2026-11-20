@@ -1,0 +1,164 @@
+:root{--navy:#092745;--blue:#075b91;--gold:#d6a44d;--cream:#f8f6f1;--ink:#142d42;--muted:#647484}*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:90px}body{margin:0;font-family:'DM Sans',sans-serif;color:var(--ink);background:#fff}a{color:inherit;text-decoration:none}button,input,select,textarea{font:inherit}button{cursor:pointer}.wrap{width:min(1160px,calc(100% - 44px));margin:auto}.site-header{position:sticky;top:0;background:#fff;z-index:50;box-shadow:0 3px 25px #09274512}.nav{min-height:85px;display:flex;align-items:center;justify-content:space-between;gap:20px}.brand{display:flex;align-items:center;gap:10px;font-weight:700;letter-spacing:.08em;font-size:19px;color:var(--navy)}.brand img{width:64px;height:64px;object-fit:contain}.brand small{font-size:11px;color:var(--blue);margin-left:3px}nav{display:flex;align-items:center;gap:24px;font-size:13px;font-weight:700}nav a:hover,.text-link:hover{color:var(--blue)}.nav-cta{padding:13px 18px;border-radius:4px;background:var(--navy);color:white!important}.menu-toggle{display:none;background:transparent;border:0;font-size:26px}.hero{position:relative;min-height:640px;background:url('https://images.unsplash.com/photo-1488646953014-85cb44e25828?auto=format&fit=crop&w=2000&q=85') center/cover;display:flex;align-items:center;color:white}.hero-shade{position:absolute;inset:0;background:linear-gradient(90deg,#071c35ed 0%,#092b4fc9 46%,#08243b38 100%)}.hero-content{position:relative;padding:105px 0 100px}.eyebrow,.kicker{font-size:12px;letter-spacing:.19em;font-weight:700;color:var(--blue)}.eyebrow{color:#f3c879}.hero h1,h2{font-family:'Playfair Display',Georgia,serif;line-height:1.15;letter-spacing:-.03em}.hero h1{font-size:clamp(43px,6.1vw,78px);max-width:810px;margin:20px 0}.hero h1 em,h2 em{font-weight:500;color:var(--gold)}.hero-content>p{font-size:17px;line-height:1.85;max-width:590px;color:#f3f6fa}.hero-actions{display:flex;gap:13px;flex-wrap:wrap;margin:35px 0 45px}.btn{border:0;display:inline-flex;align-items:center;justify-content:center;gap:24px;padding:17px 24px;border-radius:4px;font-size:14px;font-weight:700}.btn-gold{background:var(--gold);color:#0b243b}.btn-outline{border:1px solid #ffffff90;color:white}.btn:hover,.nav-cta:hover{filter:brightness(1.1);transform:translateY(-1px)}.hero-points{display:flex;flex-wrap:wrap;gap:23px;font-size:12px;font-weight:700;color:#e9edf0}.hero-tag{position:absolute;right:3%;bottom:30px;font-size:11px;letter-spacing:.15em}.hero-tag span{font-size:19px}.intro-strip{background:var(--navy);color:#fff}.strip-grid{display:grid;grid-template-columns:repeat(3,1fr);padding:25px 0}.strip-grid div{padding:5px 24px;border-right:1px solid #ffffff25;display:flex;flex-direction:column;gap:5px}.strip-grid div:first-child{padding-left:0}.strip-grid div:last-child{border:0}.strip-grid strong{font-size:18px}.strip-grid span{font-size:12px;color:#c8d6df}.section{padding:100px 0}.section-top{display:flex;justify-content:space-between;align-items:end;gap:30px;margin-bottom:30px}h2{font-size:clamp(35px,4vw,54px);margin:12px 0 16px}.muted,.dest-note{color:var(--muted);line-height:1.8}.text-link{font-size:14px;font-weight:700;color:var(--blue);white-space:nowrap}.filters{display:flex;flex-wrap:wrap;gap:9px;margin:28px 0}.filter{border:1px solid #dce3e7;background:white;color:#41576a;border-radius:25px;padding:11px 17px;font-size:12px;font-weight:700}.filter.active,.filter:hover{background:var(--navy);border-color:var(--navy);color:white}.destination-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:18px}.destination-card{position:relative;min-height:300px;border-radius:7px;overflow:hidden;background:#274b62;cursor:pointer}.destination-card img{width:100%;height:100%;object-fit:cover;position:absolute;inset:0;transition:transform .4s}.destination-card:hover img{transform:scale(1.07)}.destination-card:after{content:'';position:absolute;inset:0;background:linear-gradient(0deg,#061b30e8,transparent 65%)}.destination-card .card-info{position:absolute;z-index:1;bottom:20px;left:20px;right:15px;color:white}.destination-card .card-info span{font-size:11px;letter-spacing:.13em;color:#f0d39e}.destination-card h3{font-size:21px;margin:6px 0}.destination-card button{color:white;border:0;background:none;padding:0;text-decoration:underline;text-underline-offset:4px;font-size:12px;font-weight:700}.dest-note{text-align:center;margin:30px 0 0}.services{background:var(--cream)}.service-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin-top:35px}.service-card{padding:34px 25px;background:white;border:1px solid #eceae5;border-radius:7px}.service-icon{width:55px;height:55px;border-radius:50%;background:#eaf3f8;display:grid;place-items:center;color:var(--blue);font-size:26px}.service-card h3{font-size:19px;margin:25px 0 12px}.service-card p{color:var(--muted);font-size:14px;line-height:1.8}.umrah{background:#0a304b;color:white}.umrah-inner{display:grid;grid-template-columns:1fr 1fr;min-height:440px;align-items:center;gap:60px}.umrah-inner>div:first-child{padding:70px 0}.umrah p:not(.kicker){color:#d9e5ec;line-height:1.9;max-width:500px;margin-bottom:30px}.light{color:#e4bc72}.umrah-visual{height:440px;align-self:stretch;display:grid;grid-template-columns:1fr 1fr;gap:12px;padding:20px 0}.faith-photo{position:relative;margin:0;min-width:0;overflow:hidden;border-radius:9px}.faith-photo img{display:block;width:100%;height:100%;object-fit:cover}.faith-photo figcaption{position:absolute;bottom:0;left:0;right:0;padding:36px 16px 15px;background:linear-gradient(transparent,#071b31dd);font-size:19px;font-weight:700;color:white}.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:75px}.about-grid>div:last-child{padding-top:45px}.about-grid p:not(.kicker){line-height:1.9;color:var(--muted)}.inquiry-section{background:#edf3f6}.inquiry-layout{display:grid;grid-template-columns:.85fr 1.15fr;gap:70px;align-items:start}.inquiry-copy>p:not(.kicker){line-height:1.9;color:var(--muted)}.contact-mini{display:flex;flex-direction:column;gap:8px;margin-top:35px}.contact-mini span{font-size:11px;letter-spacing:.13em;color:var(--blue);font-weight:700;margin-top:12px}.contact-mini a{font-size:23px;font-weight:700}.small-note{font-size:12px;max-width:380px;margin-top:30px}.form-card{background:white;border-radius:8px;padding:38px;box-shadow:0 15px 45px #09274512}.form-card h3{font-size:25px;margin:0 0 7px}.form-card>p{font-size:13px;color:var(--muted);margin-bottom:25px}.form-row{display:grid;grid-template-columns:1fr 1fr;gap:15px}.form-card label{display:block;font-size:12px;font-weight:700;color:#365064;margin-bottom:17px}.form-card input:not([type=checkbox]),.form-card select,.form-card textarea{display:block;width:100%;border:1px solid #dce4e9;background:#fafcfd;border-radius:4px;padding:13px;margin-top:8px;outline-color:var(--blue);font-size:14px;color:var(--ink)}.consent label{display:flex;gap:9px;align-items:start;line-height:1.6}.consent input{margin-top:4px}.btn-submit{background:var(--navy);color:white;width:100%}.form-status{margin:12px 0 0!important;color:#9b441c!important}.contact-section{background:var(--navy);color:white;padding:75px 0}.contact-layout{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:35px;align-items:center}.contact-layout p:not(.kicker){color:#b9cbd9;line-height:1.7}.contact-box{border-left:1px solid #ffffff35;padding-left:28px;display:flex;flex-direction:column;gap:12px}.contact-box span{font-size:12px;letter-spacing:.1em;color:#d9bd86}.contact-box>a:first-of-type{font-size:23px;font-weight:700}.contact-whatsapp{font-size:13px;color:#a9e4c1;text-decoration:underline}footer{background:#061a2c;color:#b5c3ce;padding:32px 0}.footer-inner{display:flex;align-items:center;justify-content:space-between;gap:25px;flex-wrap:wrap;font-size:12px}.footer-brand{display:flex;align-items:center;gap:15px}.footer-brand img{width:65px;height:65px;object-fit:contain;background:white;border-radius:5px}.footer-links{display:flex;flex-wrap:wrap;gap:20px}a:focus-visible,button:focus-visible{outline:3px solid var(--gold);outline-offset:3px}@media(max-width:900px){nav{gap:12px;font-size:12px}.destination-grid{grid-template-columns:repeat(3,1fr)}.service-grid{grid-template-columns:repeat(2,1fr)}.inquiry-layout{gap:35px}.contact-layout{grid-template-columns:1fr 1fr}.contact-layout>div:first-child{grid-column:1/-1}}@media(max-width:680px){.nav{min-height:72px}.brand img{width:50px;height:50px}.menu-toggle{display:block}nav{display:none;position:absolute;top:72px;left:0;right:0;background:white;padding:20px 24px;box-shadow:0 10px 20px #09274520;flex-direction:column;align-items:stretch}nav.open{display:flex}.hero{min-height:570px}.hero-content{padding:80px 0}.hero-tag{display:none}.hero-points{gap:12px}.strip-grid{grid-template-columns:1fr;gap:12px}.strip-grid div{border-right:0;border-bottom:1px solid #ffffff20;padding:8px 0}.section{padding:65px 0}.section-top{display:block}.destination-grid{grid-template-columns:repeat(2,1fr);gap:12px}.destination-card{min-height:240px}.destination-card h3{font-size:18px}.service-grid{grid-template-columns:1fr}.umrah-inner,.about-grid,.inquiry-layout,.contact-layout{grid-template-columns:1fr;gap:25px}.umrah-inner>div:first-child{padding:55px 0 10px}.umrah-visual{height:270px}.about-grid>div:last-child{padding:0}.form-card{padding:23px}.contact-layout>div:first-child{grid-column:auto}.contact-box{padding-left:20px}.footer-inner{align-items:flex-start;flex-direction:column}}@media(max-width:400px){.form-row{grid-template-columns:1fr}.destination-grid{grid-template-columns:1fr}.destination-card{min-height:270px}.hero-actions{align-items:stretch;flex-direction:column}.btn{width:100%}}
+
+/* Modern travel header refresh */
+body{font-family:'Inter',Arial,sans-serif}
+h1,h2,h3,.brand{font-family:'Poppins',Arial,sans-serif}
+.brand{letter-spacing:.015em}.nav-cta{border-radius:999px;background:#0862a3}
+.modern-hero{min-height:0;background:#075a9b;display:block;color:#fff;overflow:hidden}
+.modern-hero .hero-banner{display:block;width:100%;height:auto;max-height:790px;object-fit:contain}
+.modern-hero .hero-live-actions{position:relative;display:flex;justify-content:center;gap:14px;flex-wrap:wrap;padding:18px 18px 23px}
+.modern-hero .btn{border-radius:999px;padding:15px 25px;box-shadow:0 5px 15px #001b3450}
+.modern-hero .btn-gold{background:linear-gradient(120deg,#ffe17c,#e9a927);color:#082f58}
+.modern-hero .btn-outline{border:1px solid #ffffffaa;background:#ffffff15}
+@media(max-width:680px){.modern-hero .hero-banner{width:100%;max-height:none}.modern-hero .hero-live-actions{padding:12px 18px 18px}.modern-hero .btn{width:auto;flex:1 1 180px}}
+
+/* Floating back-to-top control */
+.back-to-top{position:fixed;right:24px;bottom:24px;z-index:100;display:flex;align-items:center;gap:8px;border:1px solid #ffffff55;border-radius:999px;background:#075b91;color:#fff;padding:13px 17px;box-shadow:0 8px 25px #061a2c55;font-family:'Inter',sans-serif;font-weight:700;font-size:14px;opacity:0;visibility:hidden;transform:translateY(12px);pointer-events:none;transition:opacity .2s ease,transform .2s ease,visibility .2s ease}
+.back-to-top span:first-child{font-size:20px;line-height:1}.back-to-top.is-visible{opacity:1;visibility:visible;transform:translateY(0);pointer-events:auto}.back-to-top:hover{background:#092745}.back-to-top:focus-visible{outline:3px solid #d6a44d;outline-offset:3px}@media(max-width:680px){.back-to-top{right:16px;bottom:16px;padding:12px 14px}.back-to-top-label{display:none}}@media(prefers-reduced-motion:reduce){.back-to-top{transition:none}html{scroll-behavior:auto}}
+
+/* WhatsApp icons beside the two existing office links */
+.contact-whatsapp{display:inline-flex;align-items:center;gap:8px;align-self:flex-start}.whatsapp-icon{width:22px;height:22px;flex:none;color:#25D366}.contact-whatsapp:hover .whatsapp-icon{color:#49e784}
+
+/* One navigation: links aligned with the existing menu painted in the hero image. */
+.hero-image-navigation{position:relative;width:100%}
+.banner-nav{position:absolute;inset:0;display:block;z-index:4;pointer-events:none}
+.banner-nav a{position:absolute;top:1.6%;height:7.4%;display:block;pointer-events:auto;border-radius:5px}
+.banner-nav a:nth-child(1){left:47.9%;width:9.3%}
+.banner-nav a:nth-child(2){left:57.6%;width:13.4%}
+.banner-nav a:nth-child(3){left:70.9%;width:12.6%}
+.banner-nav a:nth-child(4){left:83.2%;width:9.6%}
+.banner-nav a:nth-child(5){left:92.1%;width:7.6%}
+.banner-nav a:hover{background:rgba(255,255,255,.12)}
+.banner-nav a:focus-visible{outline:3px solid #ffda74;outline-offset:1px;background:rgba(255,255,255,.15)}
+.mobile-banner-nav{display:none}
+html{scroll-behavior:smooth}
+@media(max-width:800px){
+.banner-nav{display:none}
+.mobile-banner-nav{display:flex;justify-content:center;flex-wrap:wrap;gap:4px;padding:12px 10px;background:#075291}
+.mobile-banner-nav a{display:inline-block;padding:10px 12px;border-radius:6px;color:#fff;font-size:13px;font-weight:700}
+.mobile-banner-nav a:hover,.mobile-banner-nav a:focus-visible{background:#ffffff25}
+}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+
+/* Compact version of the ORIGINAL approved blue-and-gold design.
+   Retains the entire artwork, painted logo, menu, landmarks, and CTA. */
+.modern-hero .hero-banner{width:100%;height:clamp(220px,26vw,390px);max-height:none;object-fit:fill}
+.banner-cta-hotspot{position:absolute;z-index:6;left:34.7%;top:46.2%;width:26.5%;height:10.2%;border-radius:40px;display:block}
+.banner-cta-hotspot:hover{background:rgba(255,255,255,.13)}
+.banner-cta-hotspot:focus-visible{outline:3px solid #ffda74;outline-offset:2px}
+@media(max-width:680px){.modern-hero .hero-banner{height:clamp(180px,44vw,290px)}.banner-cta-hotspot{display:none}}
+
+/* Corrected fitted panoramic hero: natural aspect ratio, no stretching. */
+.modern-hero .hero-image-navigation{display:flex;flex-direction:column}
+.modern-hero .banner-nav{position:relative;inset:auto;display:flex;order:0;justify-content:center;align-items:center;gap:clamp(8px,2vw,32px);padding:12px 16px;background:#073f77;color:#fff;pointer-events:auto;box-shadow:inset 0 -2px #d9a94c}
+.modern-hero .banner-nav a{position:static;left:auto;top:auto;width:auto;height:auto;display:inline-flex;align-items:center;justify-content:center;padding:7px 6px;border-radius:4px;white-space:nowrap;color:#fff;font-size:clamp(11px,1vw,14px);font-weight:700}
+.modern-hero .banner-nav a:hover{background:#ffffff26;color:#ffe29a}
+.modern-hero .hero-banner{order:1;display:block;width:100%;height:auto;max-height:none;object-fit:contain;object-position:center}
+.modern-hero .mobile-banner-nav{display:none}
+@media(max-width:800px){.modern-hero .banner-nav{display:flex;flex-wrap:wrap;gap:3px 12px;padding:9px 12px}.modern-hero .banner-nav a{font-size:12px;padding:6px 4px}.modern-hero .mobile-banner-nav{display:none}}
+@media(max-width:680px){.modern-hero .hero-banner{height:auto;max-height:none}}
+
+
+/* Sticky, independent site header and original user-supplied panoramic banner */
+html{scroll-padding-top:92px;scroll-behavior:smooth}
+section[id]{scroll-margin-top:92px}
+.skip-link{position:absolute;left:12px;top:-80px;z-index:1001;background:white;color:#073f77;padding:10px 16px}
+.skip-link:focus{top:12px}
+.site-header{position:sticky;top:0;z-index:1000;background:#073f77;border-bottom:3px solid #d9ac4f;box-shadow:0 5px 18px #052a4c35}
+.site-header .header-inner{min-height:86px;display:flex;align-items:center;justify-content:space-between;gap:22px}
+.header-logo{display:flex;align-items:center;flex-shrink:0}
+.header-logo img{display:block;width:auto;height:68px;max-width:200px;object-fit:contain}
+.site-nav{display:flex;align-items:center;justify-content:flex-end;gap:clamp(8px,1.6vw,23px)}
+.site-nav a{color:white;text-decoration:none;font-family:Inter,Arial,sans-serif;font-size:clamp(12px,1vw,14px);font-weight:700;white-space:nowrap;padding:10px 3px;border-radius:5px}
+.site-nav a:hover,.site-nav a:focus-visible{color:#ffe29a}
+.site-nav .header-quote{background:linear-gradient(120deg,#ffe17c,#d9a23d);color:#082f58;padding:12px 17px;border-radius:25px}
+.site-nav .header-quote:hover{color:#082f58;filter:brightness(1.08)}
+.menu-toggle{display:none}
+.landmark-hero{display:block;min-height:0;background:#075a9b;overflow:hidden;color:white}
+.landmark-hero .landmark-banner{display:block;width:100%;height:clamp(210px,25vw,390px);object-fit:cover;object-position:center 61%}
+.landmark-hero .hero-live-actions{position:relative;display:flex;justify-content:center;gap:14px;flex-wrap:wrap;padding:18px 18px 22px}
+.landmark-hero .btn{border-radius:999px;padding:14px 24px;box-shadow:0 5px 15px #001b3450}
+.landmark-hero .btn-gold{background:linear-gradient(120deg,#ffe17c,#e9a927);color:#082f58}
+.landmark-hero .btn-outline{border:1px solid #ffffffaa;background:#ffffff15;color:white}
+@media(max-width:900px){
+ .site-header .header-inner{min-height:74px}
+ .header-logo img{height:58px}
+ .menu-toggle{display:flex;flex-direction:column;justify-content:center;gap:5px;background:transparent;border:1px solid #ffffff80;border-radius:7px;width:46px;height:42px;padding:9px;cursor:pointer}
+ .menu-toggle span{display:block;height:2px;width:100%;background:white}
+ .site-nav{display:none;position:absolute;top:100%;left:0;right:0;background:#073f77;padding:15px max(20px,5vw) 20px;flex-direction:column;align-items:stretch;gap:0;box-shadow:0 12px 20px #001c3966}
+ .site-nav.open{display:flex}
+ .site-nav a{font-size:15px;padding:12px 10px}
+ .site-nav .header-quote{text-align:center;margin-top:7px}
+}
+@media(max-width:680px){
+ .landmark-hero .landmark-banner{height:clamp(170px,43vw,270px);object-position:center 60%}
+ .landmark-hero .hero-live-actions{padding:12px 12px 18px}
+ .landmark-hero .btn{width:auto;flex:1 1 175px;text-align:center}
+}
+
+/* Entire destination tile is a keyboard-accessible inquiry link. */
+.destination-card{display:block;color:inherit;text-decoration:none}
+.destination-card .card-action{display:inline-block;font-size:12px;font-weight:700;color:#fff;letter-spacing:normal;text-decoration:underline;text-underline-offset:4px}
+.destination-card:focus-visible{outline:4px solid #d6a44d;outline-offset:3px}
+
+/* Elegant wave-shaped sticky header; independent of the hero image */
+.site-header{border-bottom:0!important;isolation:isolate;overflow:visible}
+.site-header::after{content:"";position:absolute;left:0;right:0;top:calc(100% - 1px);height:27px;pointer-events:none;background-repeat:no-repeat;background-size:100% 100%;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 32' preserveAspectRatio='none'%3E%3Cpath fill='%23d9ac4f' d='M0 0H1440V12C1200 32 1000 1 720 17S240 31 0 11Z'/%3E%3Cpath fill='%23073f77' d='M0 0H1440V8C1200 28 1000 -3 720 13S240 27 0 7Z'/%3E%3C/svg%3E");filter:drop-shadow(0 3px 3px rgba(0,20,42,.15))}
+.landmark-hero{position:relative}
+@media(max-width:800px){.site-header::after{height:19px}}
+
+/* Pakistan car rental inquiry */
+.service-action{display:inline-flex;margin-top:12px;color:#b88729;font-weight:750;text-decoration:underline;text-underline-offset:4px}
+.car-rental-fields{margin:18px 0;padding:18px;border:1px solid #d7c39b;border-radius:12px;background:#fffaf0}
+.car-rental-fields[hidden]{display:none!important}
+.car-rental-fields h4{margin:0 0 14px;color:#142b51;font-size:1.1rem}
+
+/* Floating WhatsApp office selector */
+.wa-float{position:fixed;right:22px;bottom:24px;z-index:10050;display:flex;flex-direction:column;align-items:flex-end;gap:12px;font-family:inherit}
+.wa-launch{width:62px;height:62px;display:grid;place-items:center;border:0;border-radius:50%;background:#25d366;color:#fff;cursor:pointer;box-shadow:0 8px 28px #0004;transition:transform .2s ease,background .2s ease}
+.wa-launch:hover,.wa-launch:focus-visible{transform:translateY(-2px);background:#1db954}
+.wa-launch svg{width:35px;height:35px}
+.wa-panel{width:min(335px,calc(100vw - 32px));padding:18px;background:white;color:#13253c;border:1px solid #dce5e9;border-radius:16px;box-shadow:0 14px 45px #0003}
+.wa-panel[hidden]{display:none!important}
+.wa-panel-heading{display:flex;justify-content:space-between;align-items:center;font-size:18px;font-weight:800;gap:12px}
+.wa-panel p{font-size:13px;margin:7px 0 13px;color:#52616c}
+.wa-close{font-size:25px;line-height:1;border:0;background:transparent;color:#445;cursor:pointer;padding:2px 5px}
+.wa-panel>a{display:flex;align-items:center;gap:11px;padding:12px 10px;margin-top:8px;text-decoration:none;color:#152d41;background:#f4f8f7;border:1px solid #e3ece9;border-radius:11px;font-size:20px}
+.wa-panel>a:hover,.wa-panel>a:focus-visible{background:#e4f8eb;border-color:#25d366}
+.wa-panel>a span:nth-child(2){flex:1;display:flex;flex-direction:column;gap:2px;font-size:14px}
+.wa-panel>a small{font-size:12px;color:#4d6672}
+@media(max-width:600px){.wa-float{right:14px;bottom:15px}.wa-launch{width:56px;height:56px}}
+
+/* Keep Back to Top on the left, opposite the WhatsApp chat control */
+.back-to-top{left:24px;right:auto}
+@media(max-width:680px){.back-to-top{left:16px;right:auto}}
+
+/* Transparent logo and undistorted panoramic globe hero */
+.site-header .header-logo img{object-fit:contain;background:transparent}
+.landmark-hero .landmark-banner{object-fit:cover;object-position:center center}
+
+/* White sticky header, navy links, transparent brand mark */
+.site-header{background:#ffffff!important;box-shadow:0 4px 18px rgba(5,42,76,.13)}
+.site-nav a{color:#073f77!important}
+.site-nav a:hover,.site-nav a:focus-visible{color:#126cb2!important}
+.site-nav .header-quote{color:#073f77!important}
+.site-header::after{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 32' preserveAspectRatio='none'%3E%3Cpath fill='%23d9ac4f' d='M0 0H1440V12C1200 32 1000 1 720 17S240 31 0 11Z'/%3E%3Cpath fill='%23ffffff' d='M0 0H1440V8C1200 28 1000 -3 720 13S240 27 0 7Z'/%3E%3C/svg%3E")!important}
+.header-logo img{height:64px!important;max-width:235px!important;width:auto!important;object-fit:contain}
+.menu-toggle{border-color:#073f77!important}
+.menu-toggle span{background:#073f77!important}
+.landmark-hero .hero-brand-logo{position:absolute;top:38px;right:max(4vw,24px);width:clamp(145px,16vw,245px);height:auto;max-height:42%;object-fit:contain;z-index:2;filter:drop-shadow(0 2px 5px rgba(255,255,255,.9)) drop-shadow(0 3px 6px rgba(0,28,64,.2));pointer-events:none}
+@media(max-width:900px){.site-nav{background:#ffffff!important;border-top:1px solid #e6edf3}.site-nav a{color:#073f77!important}}
+@media(max-width:680px){.header-logo img{height:53px!important;max-width:170px!important}.landmark-hero .hero-brand-logo{top:23px;right:14px;width:clamp(88px,20vw,140px)}}
+
+/* Centered transparent logo on hero; small airplane is baked into updated image */
+.landmark-hero .hero-brand-logo{left:50%!important;right:auto!important;top:clamp(12px,2.1vw,30px)!important;transform:translateX(-50%);width:clamp(140px,18vw,270px)!important;max-height:37%!important;object-fit:contain}
+@media(max-width:680px){.landmark-hero .hero-brand-logo{top:12px!important;width:clamp(105px,24vw,160px)!important;max-height:40%!important}}
+
+/* Requested refinement: retain the EXACT previous image files. White CTA strip. */
+.landmark-hero{background:#fff!important}
+.landmark-hero .hero-live-actions{background:#fff!important}
+.landmark-hero .btn-outline{background:#fff!important;border:2px solid #073f77!important;color:#073f77!important;box-shadow:none}
+.landmark-hero .btn-outline:hover,.landmark-hero .btn-outline:focus-visible{background:#edf5fc!important}
+/* Lower the visible plane slightly by adjusting the image framing, without replacing artwork. */
+.landmark-hero .landmark-banner{object-position:center 36%!important}
+@media(max-width:680px){.landmark-hero .landmark-banner{object-position:center 35%!important}}
